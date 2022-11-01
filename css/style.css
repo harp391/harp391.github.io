@@ -1,5 +1,6 @@
 .navbar{
-  color: #040403;
+    text-transform: uppercase;
+   
 }
 
 .home {
@@ -38,7 +39,7 @@
 }
 
 .home h1{
-    color: white;
+    
     display: block;
     font-size: 50px;
     line-height: 1.7;
@@ -55,13 +56,6 @@
 
 .home h2{
     text-align: center;
-}
-
-.home p{
-    color: white;
-    font-size: 18px;
-    margin-top: 20px;
-    max-width: 450px;
 }
 
 .about{
