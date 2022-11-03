@@ -1,18 +1,26 @@
+.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 54px;
+    color: white;
+    position: relative; 
+    background: transparent;
+}
+
 .navbar{
     text-transform: uppercase;
    
 }
 
 .home {
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/profile.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: right top;
     min-height: 700px;
     position: relative;
     overflow: hidden;
-   
+   z-index: 1;
 }
 
 .home .titles{
@@ -44,7 +52,7 @@
     font-size: 50px;
     line-height: 1.7;
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     font-weight: bolder;
    
@@ -55,18 +63,24 @@
 }
 
 .home h2{
-    text-align: center;
+    text-align: left;
 }
 
 .about{
     padding-top: 30px;
-    margin-top: 10px;
+    padding-bottom: 30px;
+    z-index: 2;
+    background-size: contain;
+    background-position: absolute;
+    background-color: black;
+    color: white;
+   box-sizing: border-box;
 }
 
 .section-heading{
     text-transform: uppercase;
     font-weight: bolder;
-    color: #c9a04f;
+
 }
 
 
