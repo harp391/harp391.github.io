@@ -17,16 +17,16 @@
 .collapse{
     float: right;
     flex: unset;
-    color: white !important;
+    color: #fff !important;
     }
 }
 
 .home {
     background-image: url('../images/profile.jpg');
-    background-attachment: fixed;
+    background-attachment: initial;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right top;
+    background-position: center;
     height: 100vh;
     position: relative;
     overflow: hidden;
@@ -83,6 +83,10 @@
     text-align: left;
 }
 
+.social-links{
+    color: white;
+}
+
 .about, .resume, .interests{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -101,5 +105,48 @@
     
 }
 
+.about-txt, h4{
+    text-transform: uppercase;
+    color: rgb(181, 93, 169);
+}
 
-
+h2{
+    color: #18d26e;
+    text-shadow:0 0 5px #d02b99;
+}
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  
+  .skills .progress .skill {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+  }
+  
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+    background: rgba(103, 103, 103, 0.2);
+  }
+  
+  .skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #18d26e;
+  }
+  
