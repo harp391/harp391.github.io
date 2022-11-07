@@ -9,5 +9,23 @@
     });
 })(jQuery);
 
-
-
+var skills = {
+    ht: 100,
+    cs: 95,
+    js: 85,
+    jq: 80
+  };
+  
+  $.each(skills, function(key, value) {
+    var skillbar = $("." + key);
+  
+    skillbar.animate(
+      {
+        width: value + "%"
+      },
+      3000,
+      function() {
+        $(".speech-bubble").fadeIn();
+      }
+    );
+  }); 

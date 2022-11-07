@@ -12,12 +12,15 @@
     
 }
 
+.nav-link{
+    color: #fff;
+}
+
 
 @media only screen and (min-width:992px) {
 .collapse{
     float: right;
     flex: unset;
-    color: #fff !important;
     }
 }
 
@@ -87,9 +90,9 @@
     color: white;
 }
 
-.about, .resume, .interests{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.about, .resume{
+    padding-top: 60px;
+    padding-bottom: 60px;
    
     bottom: 100px;
    
@@ -117,36 +120,109 @@ h2{
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
-    height: 60px;
-    display: block;
-    background: none;
-    border-radius: 0;
+
+
+  .progressBar {
+      margin-bottom: 26px;
+      margin-bottom: 1.66em;
+      position: relative;
+      
+  }
+  .progressBar h4 {
+      font-size: 16px;
+      text-transform: none;
+      margin-bottom: 7px;
+      margin-bottom: .33em;
+      color: #a45bbd;
+  }
+  .progressBarcontainer {
+      width: 100%;
+      height: 10px;
+      background: #E1E1E1!important;
+      overflow: hidden;
+      border-radius: 0.3em;
+  }
+  .progressBarValue {
+      height: 10px;
+      float: left;
+      border-radius: 0.3em;
+      background: #e55d87; 
+      background: -moz-linear-gradient(-45deg, #e55d87 0%, #18d26e 100%);
+      background: -webkit-linear-gradient(-45deg, #e55d87 0%, #18d26e 100%);
+      background: linear-gradient(135deg, #e55d87 0%, #18d26e 100%);
   }
   
-  .skills .progress .skill {
-    padding: 10px 0;
-    margin: 0;
-    text-transform: uppercase;
-    display: block;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #fff;
+  .speech-bubble {
+      font-size: 0.75em;
+      line-height: 2em;
+      position: absolute;
+      top: -0.60em;
+      text-align: center;
+      min-width: 3em;
+      border-radius: 0.3em;
+      color: white;
+      display: none;
   }
   
-  .skills .progress .skill .val {
-    float: right;
-    font-style: normal;
+  .speech-bubble:after {
+      border: 0.5em solid transparent;
+      content: "";
+      margin-left: -0.5em;
+      position: absolute;
+      bottom: -50%;
+      left: 50%;
   }
   
-  .skills .progress-bar-wrap {
-    background: rgba(103, 103, 103, 0.2);
+  .html {
+      left: calc(100% - 1.5em);
+  }
+    
+  .css{
+        left: calc(95% - 1.5em);
   }
   
-  .skills .progress-bar {
-    width: 1px;
-    height: 10px;
-    transition: 0.9s;
-    background-color: #18d26e;
+  .javascript{
+      left: calc(85% - 1.5em);
+  } 
+  
+  
+  .jquery{
+      left: calc(80% - 1.5em);
   }
   
+  .html,
+  .css,
+  .javascript,
+  .react,
+  .jquery {
+      background: #a487b2;
+  }
+    
+  .html:after {
+      border-top-color: #a487b2;
+  }
+  
+  .css:after{
+      border-top-color:#a487b2;
+  }
+  
+  .javascript:after{
+      border-top-color:#a487b2;
+  }
+  
+  .react:after{
+      border-top-color:#a487b2;
+  }
+  
+  .jquery:after{
+      border-top-color:#a487b2;
+  }
+
+  .interests{
+    padding-top: 60px;
+    padding-bottom: 500px;
+    
+    background-color: black;
+    color: white;
+    
+  }
