@@ -121,12 +121,12 @@
 .img-fluid {
     max-width: 80%;
     max-height: 70%;
-    size: initial;
+    margin-left: 70px;
 }
 
 h2{
     color: #18d26e;
-    text-shadow:0 0 5px #d02b99;
+    text-shadow:0 0 8px #d02b99;
 }
 
 .social-links .fa{
