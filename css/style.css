@@ -10,6 +10,9 @@
 .navbar{
     font-size: 16px;
     text-transform: initial;
+    display: block;
+    position: fixed;
+    width: 100%;
     
 }
 
@@ -17,11 +20,7 @@
     color: #fff;
 }
 
-/* .img-profile {
-    border-radius: 50%!important;
-    border-color: black;
-    background-color: black;
-} */
+
 
 .container-fluid a:hover {
     color: #18d26e;
@@ -102,8 +101,8 @@
 }
 
 .about, .education, .experience, .skills{
-    padding-top: 60px;
-    padding-bottom: 30px; 
+    padding-top: 90px;
+    padding-bottom: 60px; 
     bottom: 100px;
    
     background-color: black;

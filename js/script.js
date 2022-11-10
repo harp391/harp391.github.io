@@ -13,7 +13,11 @@ var skills = {
     ht: 100,
     cs: 95,
     js: 85,
-    jq: 80
+    jq: 80,
+    ap: 90,
+    ai: 85,
+    cr: 90,
+    co: 97
   };
   
   $.each(skills, function(key, value) {
