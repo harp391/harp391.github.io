@@ -17,6 +17,17 @@
     color: #fff;
 }
 
+/* .img-profile {
+    border-radius: 50%!important;
+    border-color: black;
+    background-color: black;
+} */
+
+.container-fluid a:hover {
+    color: #18d26e;
+    cursor: pointer;
+}
+
 
 @media only screen and (min-width:992px) {
 .collapse{
@@ -90,11 +101,11 @@
     color: white;
 }
 
-.about, .resume{
+.about, .education, .experience, .skills{
     padding-top: 60px;
     padding-bottom: 30px; 
     bottom: 100px;
-    background-size: contain;
+   
     background-color: black;
     color: white;
     
@@ -107,26 +118,21 @@
     padding-bottom: 20px;
 }
 
-.container-fluid a:hover {
-    color: #d02b99;
-    cursor: pointer;
-}
-
 .about-txt, h4{
     text-transform: uppercase;
-    color: rgb(181, 93, 169);
+    color:  #18d26e;
     
 }
 
 .img-fluid {
     max-width: 80%;
-    max-height: 70%;
+    max-height: 80%;
     margin-left: 70px;
 }
 
 h2{
     color: #18d26e;
-    text-shadow:0 0 8px #d02b99;
+    text-shadow:0 0 8px #c07c33;
 }
 
 .social-links .fa{
@@ -138,24 +144,12 @@ h2{
 
 
 /*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
-
-.resume-title{
-    padding-top: 30px;
-}
-
-.resume-item h4{
-    padding-top: 20px;
-}
-
-
-/*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
 
-    .skills{
-        padding-top: 20px;
+    .skills-part{
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
   .progressBar {
@@ -169,7 +163,7 @@ h2{
       text-transform: none;
       margin-bottom: 7px;
       margin-bottom: .33em;
-      color: #a45bbd;
+      color:  #18d26e;
   }
   .progressBarcontainer {
       width: 100%;
@@ -225,33 +219,68 @@ h2{
   .jquery{
       left: calc(80% - 1.5em);
   }
+
+  .photoshop{
+    left: calc(90% - 1.5em);
+  }
+
+  .illustrartor{
+    left: calc(85% - 1.5em);
+  }
+
+  .creativity{
+    left: calc(90% - 1.5em);
+  }
+
+  .communication{
+    left: calc(97% - 1.5em);
+  }
   
   .html,
   .css,
   .javascript,
-  .react,
-  .jquery {
-      background: #a487b2;
+  .jquery,
+  .photoshop,
+  .illustrartor,
+  .creativity,
+  .communication {
+      background: #e55d87;
   }
     
   .html:after {
-      border-top-color: #a487b2;
+      border-top-color: #e55d87;
   }
   
   .css:after{
-      border-top-color:#a487b2;
+      border-top-color:#e55d87;
   }
   
   .javascript:after{
-      border-top-color:#a487b2;
+      border-top-color:#e55d87;
   }
   
   .react:after{
-      border-top-color:#a487b2;
+      border-top-color:#e55d87;
   }
   
   .jquery:after{
-      border-top-color:#a487b2;
+      border-top-color:#e55d87;
+  }
+
+  .photoshop:after{
+    border-top-color:#e55d87;
+  }
+
+  .illustrartor:after{
+    border-top-color:#e55d87;
+  }
+
+  .creativity:after{
+    border-top-color:#e55d87;
+  }
+
+  .communication:after{
+    border-top-color:#e55d87;
   }
 
   
@@ -259,14 +288,14 @@ h2{
 # Interests
 --------------------------------------------------------------*/
 
-
-  .carousel-item{
-    max-height: 600px;
+  .carousel-item .d-block{
+    opacity: 0.3;
   }
+  
 
   .interests{
-    padding-top: 60px;
-    padding-bottom: 500px;
+    padding-top: 70px;
+    padding-bottom: 300px;
     
     background-color: black;
     color: white;
@@ -291,8 +320,8 @@ h2{
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background: #b636ff;
-    border: 1px solid #b636ff;
+    background:  #18d26e;
+    border: 1px solid #18d26e;
     border-radius: 50%;
     -webkit-transition: .5s;
     -moz-transition: .5s;
@@ -305,5 +334,5 @@ h2{
 
 #myBtn:hover {
     background-color: #fff;
-    color: #b636ff;
+    color: #18d26e;
   }
