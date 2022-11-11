@@ -98,14 +98,10 @@
     color: white;
 }
 
-.about, .education, .experience, .skills{
-    padding-top: 90px;
-    padding-bottom: 60px; 
+.about, .education, .experience, .skills, .interests{
     bottom: 100px;
-   
     background-color: black;
-    color: white;
-    
+    color: white;   
 }
 
 .section-heading{
@@ -115,10 +111,14 @@
     padding-bottom: 20px;
 }
 
+.about{
+    padding-top: 90px;
+    
+}
+
 .about-txt, h4{
     text-transform: uppercase;
-    color:  #18d26e;
-    
+    color:  #858685;   
 }
 
 .img-fluid {
@@ -129,7 +129,7 @@
 
 h2{
     color: #18d26e;
-    text-shadow:0 0 8px #c07c33;
+   
 }
 
 .social-links .fa{
@@ -139,14 +139,29 @@ h2{
 }
 
 
+.education{
+    padding-top: 90px;
+    padding-bottom: 45px; 
+}
+
+.experience{
+    padding-top: 45px;
+    padding-bottom: 45px; 
+}
+
 
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
 
+    .skills{
+    padding-top: 60px;
+    padding-bottom: 45px; 
+    }
+
     .skills-part{
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 40px;
+        padding-bottom: 70px;
     }
 
   .progressBar {
@@ -292,11 +307,7 @@ h2{
 
   .interests{
     padding-top: 70px;
-    padding-bottom: 300px;
-    
-    background-color: black;
-    color: white;
-    
+    padding-bottom: 200px;    
   }
 
    
