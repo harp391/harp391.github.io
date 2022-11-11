@@ -10,10 +10,8 @@
 .navbar{
     font-size: 16px;
     text-transform: initial;
-    display: block;
-    position: fixed;
-    width: 100%;
     
+
 }
 
 .nav-link{
@@ -126,7 +124,7 @@
 .img-fluid {
     max-width: 80%;
     max-height: 80%;
-    margin-left: 70px;
+    margin: auto;
 }
 
 h2{
