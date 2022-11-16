@@ -1,20 +1,19 @@
-.body{
+.body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 54px;
     color: white;
-    position: relative; 
-    background: transparent;
+    position: relative;
+    background-color: black;
 }
 
 
-.navbar{
+.navbar {
     font-size: 16px;
     text-transform: initial;
-    
-
+    background-color: black !important;
 }
 
-.nav-link{
+.nav-link {
     color: #fff;
 }
 
@@ -27,9 +26,9 @@
 
 
 @media only screen and (min-width:992px) {
-.collapse{
-    float: right;
-    flex: unset;
+    .collapse {
+        float: right;
+        flex: unset;
     }
 }
 
@@ -45,25 +44,25 @@
 }
 
 @media only screen and (max-width:640px) {
-    .home{
-        background-size: cover; 
+    .home {
+        background-size: cover;
         background-attachment: initial;
     }
-    
+
 }
 
 
-.home .titles{
+.home .titles {
     width: 100%;
     height: 100%;
     min-height: 700px;
     position: absolute;
     padding: 0 80px;
     top: 0;
-    background-color: rgb(0,0,0,0.5);
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
-.home .titles-wrap{
+.home .titles-wrap {
     color: white;
     width: 100%;
     font-size: 45px;
@@ -74,7 +73,7 @@
 
 
 
-.home h1{  
+.home h1 {
 
     display: block;
     font-size: 50px;
@@ -83,42 +82,47 @@
     text-align: left;
     text-transform: uppercase;
     font-weight: bolder;
-   
+
 }
 
-.home h2 span{
+.home h2 span {
     color: white;
 }
 
-.home h2{
+.home h2 {
     text-align: left;
 }
 
-.social-links{
+.social-links {
     color: white;
 }
 
-.about, .education, .experience, .skills, .interests{
+.about,
+.education,
+.experience,
+.skills,
+.interests {
     bottom: 100px;
     background-color: black;
-    color: white;   
+    color: white;
 }
 
-.section-heading{
+.section-heading {
     text-transform: uppercase;
     font-weight: bolder;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.about{
+.about {
     padding-top: 90px;
-    
+
 }
 
-.about-txt, h4{
+.about-txt,
+h4 {
     text-transform: uppercase;
-    color:  #858685;   
+    color: #858685;
 }
 
 .img-fluid {
@@ -127,32 +131,32 @@
     margin: auto;
 }
 
-h2{
+h2 {
     color: #18d26e;
-   
+
 }
 
-.social-links .fa{
+.social-links .fa {
     color: #fff;
     margin-left: 10px;
     position: relative;
 }
 
 
-.education{
+.education {
     padding-top: 90px;
-    padding-bottom: 45px; 
+    padding-bottom: 45px;
 }
 
-.education-item{
-    
+.education-item {
+
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.experience{
+.experience {
     padding-top: 45px;
-    padding-bottom: 45px; 
+    padding-bottom: 45px;
 }
 
 
@@ -160,170 +164,173 @@ h2{
 # Skills
 --------------------------------------------------------------*/
 
-    .skills{
+.skills {
     padding-top: 60px;
-    padding-bottom: 45px; 
-    }
+    padding-bottom: 45px;
+}
 
-    .skills-part{
-        padding-top: 40px;
-        padding-bottom: 70px;
-    }
+.skills-part {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
 
-  .progressBar {
-      margin-bottom: 26px;
-      margin-bottom: 1.66em;
-      position: relative;
-      
-  }
-  .progressBar h4 {
-      font-size: 16px;
-      text-transform: none;
-      margin-bottom: 7px;
-      margin-bottom: .33em;
-      color:  #18d26e;
-  }
-  .progressBarcontainer {
-      width: 100%;
-      height: 10px;
-      background: #E1E1E1!important;
-      overflow: hidden;
-      border-radius: 0.3em;
-  }
-  .progressBarValue {
-      height: 10px;
-      float: left;
-      border-radius: 0.3em;
-      background: #e55d87; 
-      background: -moz-linear-gradient(-45deg, #e55d87 0%, #18d26e 100%);
-      background: -webkit-linear-gradient(-45deg, #e55d87 0%, #18d26e 100%);
-      background: linear-gradient(135deg, #e55d87 0%, #18d26e 100%);
-  }
-  
-  .speech-bubble {
-      font-size: 0.75em;
-      line-height: 2em;
-      position: absolute;
-      top: -0.60em;
-      text-align: center;
-      min-width: 3em;
-      border-radius: 0.3em;
-      color: white;
-      display: none;
-  }
-  
-  .speech-bubble:after {
-      border: 0.5em solid transparent;
-      content: "";
-      margin-left: -0.5em;
-      position: absolute;
-      bottom: -50%;
-      left: 50%;
-  }
-  
-  .html {
-      left: calc(100% - 1.5em);
-  }
-    
-  .css{
-        left: calc(95% - 1.5em);
-  }
-  
-  .javascript{
-      left: calc(85% - 1.5em);
-  } 
-  
-  
-  .jquery{
-      left: calc(80% - 1.5em);
-  }
+.progressBar {
+    margin-bottom: 26px;
+    margin-bottom: 1.66em;
+    position: relative;
 
-  .photoshop{
-    left: calc(90% - 1.5em);
-  }
+}
 
-  .illustrartor{
+.progressBar h4 {
+    font-size: 16px;
+    text-transform: none;
+    margin-bottom: 7px;
+    margin-bottom: .33em;
+    color: #18d26e;
+}
+
+.progressBarcontainer {
+    width: 100%;
+    height: 10px;
+    background: #E1E1E1 !important;
+    overflow: hidden;
+    border-radius: 0.3em;
+}
+
+.progressBarValue {
+    height: 10px;
+    float: left;
+    border-radius: 0.3em;
+    background: #e55d87;
+    background: -moz-linear-gradient(-45deg, #e55d87 0%, #18d26e 100%);
+    background: -webkit-linear-gradient(-45deg, #e55d87 0%, #18d26e 100%);
+    background: linear-gradient(135deg, #e55d87 0%, #18d26e 100%);
+}
+
+.speech-bubble {
+    font-size: 0.75em;
+    line-height: 2em;
+    position: absolute;
+    top: -0.60em;
+    text-align: center;
+    min-width: 3em;
+    border-radius: 0.3em;
+    color: white;
+    display: none;
+}
+
+.speech-bubble:after {
+    border: 0.5em solid transparent;
+    content: "";
+    margin-left: -0.5em;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+}
+
+.html {
+    left: calc(100% - 1.5em);
+}
+
+.css {
+    left: calc(95% - 1.5em);
+}
+
+.javascript {
     left: calc(85% - 1.5em);
-  }
+}
 
-  .creativity{
+
+.jquery {
+    left: calc(80% - 1.5em);
+}
+
+.photoshop {
     left: calc(90% - 1.5em);
-  }
+}
 
-  .communication{
+.illustrartor {
+    left: calc(85% - 1.5em);
+}
+
+.creativity {
+    left: calc(90% - 1.5em);
+}
+
+.communication {
     left: calc(97% - 1.5em);
-  }
-  
-  .html,
-  .css,
-  .javascript,
-  .jquery,
-  .photoshop,
-  .illustrartor,
-  .creativity,
-  .communication {
-      background: #e55d87;
-  }
-    
-  .html:after {
-      border-top-color: #e55d87;
-  }
-  
-  .css:after{
-      border-top-color:#e55d87;
-  }
-  
-  .javascript:after{
-      border-top-color:#e55d87;
-  }
-  
-  .react:after{
-      border-top-color:#e55d87;
-  }
-  
-  .jquery:after{
-      border-top-color:#e55d87;
-  }
+}
 
-  .photoshop:after{
-    border-top-color:#e55d87;
-  }
+.html,
+.css,
+.javascript,
+.jquery,
+.photoshop,
+.illustrartor,
+.creativity,
+.communication {
+    background: #e55d87;
+}
 
-  .illustrartor:after{
-    border-top-color:#e55d87;
-  }
+.html:after {
+    border-top-color: #e55d87;
+}
 
-  .creativity:after{
-    border-top-color:#e55d87;
-  }
+.css:after {
+    border-top-color: #e55d87;
+}
 
-  .communication:after{
-    border-top-color:#e55d87;
-  }
+.javascript:after {
+    border-top-color: #e55d87;
+}
 
-  
+.react:after {
+    border-top-color: #e55d87;
+}
+
+.jquery:after {
+    border-top-color: #e55d87;
+}
+
+.photoshop:after {
+    border-top-color: #e55d87;
+}
+
+.illustrartor:after {
+    border-top-color: #e55d87;
+}
+
+.creativity:after {
+    border-top-color: #e55d87;
+}
+
+.communication:after {
+    border-top-color: #e55d87;
+}
+
+
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
 
-  .carousel-item .d-block{
+.carousel-item .d-block {
     opacity: 0.3;
-  }
-  
+}
 
-  .interests{
+
+.interests {
     padding-top: 70px;
-    padding-bottom: 200px;    
-  }
+    padding-bottom: 200px;
+}
 
-   
+
 /*--------------------------------------------------------------
 # Footer-scroll
 --------------------------------------------------------------*/
 
 
-  #myBtn { 
-  position: fixed;
+#myBtn {
+    position: fixed;
     right: 30px;
     bottom: 30px;
     display: none;
@@ -334,7 +341,7 @@ h2{
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background:  #18d26e;
+    background: #18d26e;
     border: 1px solid #18d26e;
     border-radius: 50%;
     -webkit-transition: .5s;
@@ -349,4 +356,33 @@ h2{
 #myBtn:hover {
     background-color: #fff;
     color: #18d26e;
-  }
+}
+
+/*--------------------------------------------------------------
+# Education pages
+--------------------------------------------------------------*/
+
+.second-page{
+    text-transform: uppercase;
+   
+}
+
+.gbc {
+    background-image: url('../images/gbc.jpg');    
+}
+
+.ptu {
+    background-image: url('../images/ptu.jpg');
+}
+
+.img{
+    background-attachment: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+    
+}
+
