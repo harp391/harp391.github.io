@@ -173,6 +173,7 @@ h2 {
 }
 
 
+
 /*--------------------------------------------------------------
 # Experience
 --------------------------------------------------------------*/
@@ -183,13 +184,22 @@ h2 {
 }
 
 .card{
-    border: 2px dotted #18d26e;
+    margin-left: 40px;
+    border: 2px solid #18d26e;
     background-color: black;
     margin-top: 20px;
-    min-height: 32rem;
-    
+    text-align: center;
+    width: 20rem;
+    min-height: 25rem;
 }
 
+.card img{
+    height: 15rem;
+}
+
+.card:hover .card-img-top{
+    transform: scale(1.5);
+}
 
 /*--------------------------------------------------------------
 # Skills
